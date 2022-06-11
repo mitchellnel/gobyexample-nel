@@ -1,0 +1,4 @@
+github.com/alexflint/go-arg v0.0.0-20160306200701-e71d6514f40a h1:Bc+P30eTWphhueyACA/fjiHJXRDq/kGiqO38nGxvml0=
+github.com/alexflint/go-arg v0.0.0-20160306200701-e71d6514f40a/go.mod h1:PHxo6ZWOLVMZZgWSAqBynb/KhIqoGO6WKwOVX7rM9dg=
+github.com/walle/lll v1.0.1 h1:lbK8008fOXbQNYt8daBGUrjvElvlwlE7D7N/9dLP5IQ=
+github.com/walle/lll v1.0.1/go.mod h1:lYxcXzoPhiAHR9eaq+Yv7RYg1nIipLloBCIfPUzfaWQ=
