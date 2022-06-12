@@ -273,7 +273,11 @@ func parseExamples() []*Example {
 		}
 		newCodeHash := sha1Sum(example.GoCode)
 		if example.GoCodeHash != newCodeHash {
-			example.URLHash = resetURLHashFile(newCodeHash, example.GoCode, "examples/"+example.ID+"/"+example.ID+".hash")
+			example.URLHash = resetURLHashFile(
+				newCodeHash,
+				example.GoCode,
+				"examples/"+example.ID+"/"+example.ID+".hash",
+			)
 		}
 		examples = append(examples, &example)
 	}
