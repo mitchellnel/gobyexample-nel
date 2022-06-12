@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "Making directory, mod file and go file for gobyexample $1..."
+
+mkdir $1
+cd $1
+
+go mod init "example/$1"
+touch "$1.go"
+
