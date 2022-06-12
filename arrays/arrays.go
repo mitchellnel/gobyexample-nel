@@ -23,7 +23,8 @@ func main() {
 	arr2 := [6]int{3, 33, 4, 44, 5, 55}
 	fmt.Println("arr2:", arr2)
 
-	// Array types are one-dimensional, but as in C, we can compose types to create  multi-dimensional arrays
+	// Array types are one-dimensional, but as in C, we can compose types to create
+	// multi-dimensional arrays
 	var twoD [2][2]int
 	for i := 1; i <= 2; i++ {
 		for j := 10; j >= 9; j-- {
