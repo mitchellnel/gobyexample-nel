@@ -8,3 +8,5 @@ cd $1
 go mod init "example/$1"
 touch "$1.go"
 
+printf "package main\n\nfunc main() {\n\n}" > $1.go
+
